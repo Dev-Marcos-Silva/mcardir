@@ -462,7 +462,7 @@ input::placeholder{
     } 
     .about-lista{
         max-height: 23rem;
-        width: 25rem;
+        width: 24rem;
     }
     .about-car{
        max-width: 17rem;
@@ -495,5 +495,90 @@ input::placeholder{
     .texte-card{
         line-height: 1rem;
         font-size: 0.6rem;  
+    }
+    /*section-servirce*/
+    .service{
+        padding-block: 1rem 5rem;
+    }
+    .img-service{
+        width: 12rem;
+        height: 16rem;
+    }
+    .texte-img{
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+    /*section-buy-now*/
+    .buy-now{
+        margin-block: 2rem 4rem;
+    }
+    .img-car{
+        width: 10rem;
+        height: 14rem;
+    }
+    .title-car{
+        font-size: 1rem;
+    }
+    .buy-now>#vendidos, .buy-now>#categoria{
+        font-size: 20px; 
+    }
+    /*section-localization*/
+    .localization{
+        flex-direction: column;
+        margin-block: 1rem 4rem;
+    }
+    .localization-texte{
+        padding-block: 1rem;
+        gap: 1rem;
+    }
+    .texte-pesquisa>h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .texte-pesquisa>p{
+        line-height: 1.2rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .localization-img{
+        padding: 1rem;
+        margin: auto;
+    }
+    .localization-img>img{
+        height: 20rem;
+        max-width: 28rem;
+        border-radius: 1rem;
+    } 
+    /*section-contacts*/ 
+    .contacts{
+        padding-inline: 4rem;
+        padding-top: 2rem;
+    }
+    .contacts-list>h2{
+        font-size: 1rem;
+    }
+    .contacts-list li{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .app>h1{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    .app>p{
+        margin-bottom: 1rem;
+    }
+    .store{
+        margin-bottom: 1rem;
+    }
+    .store-img{
+        max-width: 7rem;
+        max-height: 3rem;
+    }
+    .icon-img{
+        max-width: 3rem;
+    }
+    #copyrigth{
+        font-size: 0.8rem;
     }
 }
