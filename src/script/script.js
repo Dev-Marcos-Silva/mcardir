@@ -9,13 +9,24 @@
     spaceBetween: 10,
     breakpoints: {
       // when window width is >= 320px
-      300: {
-        slidesPerView: 1,
+      360: {
+        slidesPerView: 1.1,
         spaceBetween: 20
       },
-
-      445: {
+      390: {
         slidesPerView: 1.2,
+        spaceBetween: 20
+      },
+      430: {
+        slidesPerView: 1.3,
+        spaceBetween: 20
+      },
+      460: {
+        slidesPerView: 1.4,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 1.5,
         spaceBetween: 20
       },
 

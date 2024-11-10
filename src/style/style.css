@@ -52,6 +52,9 @@ nav>.list-item>li>a{
     flex: 1;
     position: relative;
 }
+.texte-home{
+    flex: 1.8;
+}
 .texte-home>h1{
     font-size: 4rem;
     font-weight: bold;
@@ -62,7 +65,7 @@ nav>.list-item>li>a{
     font-size: 1.2rem;
 }
 .texte-home>p{
-    line-height: 1.4rem;
+    line-height: 1.5rem;
     font-size: 1.2rem;
     opacity: 60%;
     margin-bottom: 3rem;
@@ -87,7 +90,7 @@ nav>.list-item>li>a{
 .img-home>img{
     filter: drop-shadow(10rem 0rem 6rem #c70b0080);
     position: absolute;
-    left: -6rem;
+    left: -18rem;
     bottom: 0;
     width: 48rem;
 } 
@@ -440,7 +443,7 @@ input::placeholder{
     }
     .texte-home>p{
         line-height: 1rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-bottom: 2rem;
     }
     .button{
@@ -451,7 +454,7 @@ input::placeholder{
     }
     .img-home>img{
         position: absolute;
-        left: -10rem;
+        left: -16rem;
         bottom: -2rem;
         width: 34rem;
     } 
@@ -478,7 +481,7 @@ input::placeholder{
     }
     .texte-about>p{
         line-height: 1rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-bottom: 1rem;
     }
     .conteiner{
@@ -580,5 +583,113 @@ input::placeholder{
     }
     #copyrigth{
         font-size: 0.8rem;
+    }
+}
+/*responsividade de celulares*/
+@media only screen and (max-width: 480px){
+    nav{
+        display: none;
+    }
+    .button-home{
+        gap: 1rem;
+    }
+    .button-login{
+        padding-inline: 1.2rem; 
+        padding-block: 0.8rem; 
+    }
+    /*section-home*/
+    .home{
+        flex-direction: column;
+        padding-block: 0rem 3rem;
+        margin: 1rem;
+    }
+    .texte-home>h2{
+        margin-block: 1rem 1rem;
+    }
+    .button{
+        margin-block: 1rem 2rem;
+    }
+    .img-home>img{
+        filter: drop-shadow(4rem 0rem 3rem #c70b0080);
+        position: static;
+        width: 96%;
+        padding-left:0.5rem ;
+    } 
+    /*section-about*/ 
+    .about{
+        flex-direction: column-reverse;
+        gap: 2rem;
+        margin: 1rem;
+        margin-bottom: 3rem;
+    }
+    .texte-about{
+        margin-bottom: 3rem ;
+    }
+    .texte-about>h2{
+        margin-block: 1rem 1rem;
+    }
+    .conteiner{
+        display: flex;
+        position: static;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .card-inf{
+        padding-inline: 1.5rem;
+        padding-block: 1rem;
+    }
+    .img-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-lista{
+        max-height: 23rem;
+        width: 100%;
+        left: 0rem;
+    }
+    .about-car{
+       max-width: 17rem;
+       padding-bottom: 0.6rem;
+    }
+    /*section-servirce*/
+    .service{
+        padding-block: 1rem 3rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .img-service{
+        width: 9rem;
+        height: 13rem;
+    }
+    .categoria{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+    .img-car{
+        width: 9rem;
+        height: 13rem;
+    }
+    /*section-localization*/
+    .localization-img>img{
+        height: 18rem;
+        max-width: 18rem;
+    } 
+    div>input{
+        max-width: 18rem;
+    }
+    /*section-contacts*/
+    .contacts{
+        padding-inline: 16%;
+        padding-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    #menu{
+        padding-right: 10.4rem;
     }
 }
