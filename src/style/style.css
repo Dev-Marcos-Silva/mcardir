@@ -65,6 +65,7 @@ nav>.list-item>li>a{
     font-size: 1.2rem;
 }
 .texte-home>p{
+    text-align: start;
     line-height: 1.5rem;
     font-size: 1.2rem;
     opacity: 60%;
@@ -125,6 +126,7 @@ nav>.list-item>li>a{
     font-size: 1.2rem;
 }
 .texte-about>p{
+    text-align: start;
     line-height: 1.4rem;
     font-size: 1.2rem;
     opacity: 60%;
@@ -443,7 +445,7 @@ input::placeholder{
     }
     .texte-home>p{
         line-height: 1rem;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         margin-bottom: 2rem;
     }
     .button{
@@ -481,7 +483,7 @@ input::placeholder{
     }
     .texte-about>p{
         line-height: 1rem;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         margin-bottom: 1rem;
     }
     .conteiner{
@@ -603,6 +605,18 @@ input::placeholder{
         padding-block: 0rem 3rem;
         margin: 1rem;
     }
+    .texte-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte-home>h1, .texte-home>h2, .texte-home>p{
+        text-align: center;
+    }
+    .texte-home br{
+        display: none;
+    }
     .texte-home>h2{
         margin-block: 1rem 1rem;
     }
@@ -621,6 +635,14 @@ input::placeholder{
         gap: 2rem;
         margin: 1rem;
         margin-bottom: 3rem;
+    }
+    .texte-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texte-about>h1, .texte-about>h2, .texte-about>p{
+        text-align: center;
     }
     .texte-about{
         margin-bottom: 3rem ;
@@ -689,7 +711,7 @@ input::placeholder{
         align-items: center;
         gap: 2rem;
     }
-    #menu{
-        padding-right: 10.4rem;
+    .contacts-list{
+        width: 15rem;
     }
 }
