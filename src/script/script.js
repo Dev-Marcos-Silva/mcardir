@@ -12,18 +12,22 @@
         slidesPerView: 1.1,
         spaceBetween: 20
       },
+      
       390: {
         slidesPerView: 1.2,
         spaceBetween: 20
       },
+
       430: {
         slidesPerView: 1.3,
         spaceBetween: 20
       },
+
       460: {
         slidesPerView: 1.4,
         spaceBetween: 20
       },
+
       480: {
         slidesPerView: 1.5,
         spaceBetween: 20
@@ -58,7 +62,7 @@
         slidesPerView: 3.2,
         spaceBetween: 20
       },
-      
+
       1130: {
         slidesPerView: 3.6,
         spaceBetween: 20
